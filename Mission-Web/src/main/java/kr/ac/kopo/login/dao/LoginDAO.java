@@ -21,7 +21,7 @@ public class LoginDAO {
 		//  if(rs.next()) 이후 다시 올라옴
 		
 		LoginVO userVO = null ;  // 로그인 성공하면, userVO가 id, name을 기억해야함
-		
+
 		// auto클로저블(자동으로 pstmt,conn을 열고 닫음) 인터페이스를 상속받지 않기 때문에, try문 밖에다 해줘야함
 		
 		StringBuilder sql = new StringBuilder();
@@ -44,7 +44,7 @@ public class LoginDAO {
 		   
 		   if(rs.next()) {
 			   
-			   userVO =  new LoginVO();   // DB를 조회해보니, 사용자가 입력한 아이디와 비밀번호가 존재함
+			   userVO = new LoginVO();   // DB를 조회해보니, 사용자가 입력한 아이디와 비밀번호가 존재함
 			   userVO.setId(rs.getString("id"));  // LoginVO userVO 객체에 id, name, type 정보 담아서 return
 			   userVO.setName(rs.getString("name"));
 			   userVO.setType(rs.getString("type"));

@@ -1,5 +1,5 @@
 <%@page import="java.util.ArrayList"%>
-<%@page import="kr.ac.kopo.board.vo.BoardVO"%>
+<%@page import="kr.ac.kopo.board.BoardVO"%>
 <%@page import="java.util.List"%>
 <%@page import="kr.ac.kopo.board.dao.BoardDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"

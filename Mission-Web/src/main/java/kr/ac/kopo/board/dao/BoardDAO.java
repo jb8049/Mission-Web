@@ -79,7 +79,7 @@ public class BoardDAO {
 	 	sql.append(" from t_board ");
 	 	sql.append(" order by no desc ");
 
-	 	// try문에 들어오는 것과 안들어오는 것 차이 정확히 뭐임?
+	 	// try문에 들어오는 것과 안들어오는 것 차이 정확히 뭐임? auto closable
 		try(
 				Connection conn =new ConnectionFactory().getConnection();
 				PreparedStatement pstmt = conn.prepareStatement(sql.toString());

@@ -1,17 +1,18 @@
 <%@page import="kr.ac.kopo.board.vo.BoardFileVO"%>
+<%@page import="kr.ac.kopo.board.vo.BoardVO"%>
+
 <%@page import="java.util.List"%>
 <%@page import="kr.ac.kopo.board.dao.BoardDAO"%>
-<%@page import="kr.ac.kopo.util.JDBCClose"%>
-<%@page import="kr.ac.kopo.board.vo.BoardVO"%>
+<%@page import="kr.ac.jb.util.JDBCClose"%>
+
 <%@page import="java.sql.ResultSet"%>
 <%@page import="com.sun.net.httpserver.Authenticator.Result"%>
 <%@page import="java.sql.PreparedStatement"%>
-<%@page import="kr.ac.kopo.util.ConnectionFactory"%>
+<%@page import="kr.ac.jb.util.ConnectionFactory"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
     
 <!--
   http://localhost:9999/Mission-Web/jsp/board/detail.jsp?no=2

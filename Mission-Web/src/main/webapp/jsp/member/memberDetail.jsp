@@ -2,7 +2,7 @@
 <%@page import="kr.ac.kopo.member.vo.memberVO"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
-<%@page import="kr.ac.kopo.util.ConnectionFactory"%>
+<%@page import="kr.ac.jb.util.ConnectionFactory"%>
 <%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
